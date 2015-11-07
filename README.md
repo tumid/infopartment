@@ -2,6 +2,8 @@
 
 a project at [NZZ VR Hackdays](http://hackdays.nzz.ch/vr15/)
 
+our goal is to visualise datasets within a 3D environment.
+
 ## Setup
 
 ## Team
