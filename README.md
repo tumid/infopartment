@@ -1,10 +1,34 @@
 # Infopartment
 
-![](http://all.utou.ch/iot/infopartment-heizung.gif)
-
 a project at [NZZ VR Hackdays](http://hackdays.nzz.ch/vr15/)
 
 [immersive data visualisation](http://arxiv.org/pdf/1410.7670.pdf) techniques allow exploring datasets within a rich 3D environment. we made a VR project from our own interior design files representing a family apartment, as well as 3D models generated from open data sources. this was all done in Blender and its built-in Python API, the result being combined in Unity for export to Google Cardboard and other VR devices.
+
+We ran into issues getting our project deployed within Unity / Cardboard SDK, but here you can see the work in progress, which includes these 3D data visualisations:
+
+**Heating energy usage in the City of Zürich**
+
+![](http://all.utou.ch/iot/iothack15/infopartment-heizung.gif)
+
+The twelve months of the years are represented, with time flowing past, depth indicating the change in the amount of heat consumed by the city in that month, year to year.
+
+**Electricity production sources in Switzerland**
+
+![](http://all.utou.ch/iot/iothack15/infopartment-energywaves.png)
+
+Water, Nuclear, Thermal and "Misc. Renewable" energy sources are represented in this time stream visualisation that works in a similar way to the one above.
+
+**Television consumption in Switzerland**
+
+![](http://all.utou.ch/iot/iothack15/infopartment-ribbons.png)
+
+French, German and Italian regions are represented in these ribbons, showing how TV viewing has changed over the past decades.
+
+**Data sources**
+
+![](http://all.utou.ch/iot/iothack15/infopartment-sketch.png)
+
+A sketch showing the initial idea, a plurality of datasets in one device.
 
 ## Data sources
 
@@ -14,8 +38,8 @@ a project at [NZZ VR Hackdays](http://hackdays.nzz.ch/vr15/)
 
 ## Team
 
-- [Alève Mini](http://alevemine.com)
-- [Amir](https://github.com/tumid)
-- [Oleg](https://github.com/loleg)
+- [Alève Mine](http://alevemine.com)
+- [Amir Maslic](https://github.com/tumid)
+- [Oleg Lavrovsky](https://github.com/loleg)
+- Stefan Bösch
 - Olga
-- Stefan
